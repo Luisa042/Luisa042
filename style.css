@@ -1,0 +1,121 @@
+/* .: Global :. */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 105%;
+  font-family: "Ubuntu", sans-serif;
+  --russian-violet: #231942ff;
+  --purple-navy: #5e548eff;
+  --purple-mountain-majesty: #9f86c0ff;
+  --lilac: #be95c4ff;
+  --pink-lavender: #e0b1cbff;
+}
+
+body {
+  color: var(--russian-violet);
+  background: var(--purple-mountain-majesty);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--russian-violet);
+}
+
+/* .: Cover :. */
+#cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--purple-navy);
+  color: var(--pink-lavender);
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em;
+}
+
+.name h2 {
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+.name h4 {
+  font-size: 0.85em;
+  font-weight: 300;
+}
+
+button {
+  padding: 0.5em;
+  width: 11%;
+  border: 0;
+  background-color: var(--pink-lavender);
+  transition: 300ms;
+}
+
+button:hover {
+  background-color: var(--lilac);
+}
+
+/* .: Main :. */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+main section {
+  margin-top: 3em;
+  padding: 1.75em;
+  width: 55%;
+  background-color: var(--lilac);
+}
+
+main h3 {
+  font-size: 1.5em;
+}
+
+#about p:first-child {
+  text-align: center;
+  font-size: x-large;
+}
+
+#learning,
+#hobbies {
+  text-align: center;
+}
+
+main section:last-child {
+  margin-bottom: 3em;
+}
+
+/* .: Footer :. */
+footer p {
+  font-weight: 300;
+  font-size: small;
+  background-color: var(--russian-violet);
+  color: var(--lilac);
+  display: flex;
+  justify-content: center;
+}
+
+/* .: Media queries :. */
+@media (max-width: 700px) {
+  main section {
+    width: 90%;
+  }
+}
