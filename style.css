@@ -118,4 +118,8 @@ footer p {
   main section {
     width: 90%;
   }
+
+  button {
+    width: 22%;
+  }
 }
