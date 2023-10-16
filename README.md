@@ -2,9 +2,9 @@
 
 ### I am a Junior Web Developer from Brazil, former Psychology student!
 
-- I’m currently working on **a WordPress blog for a friend** and studying **Java**.
+- I’m currently studying **Java**.
 
-- I’m looking forward to collaborate on **frontend development projects**. Get in touch!
+- I’m looking forward to collaborate on **web development projects**. Get in touch!
 
 - My hobbies are **playing sudoku, discovering music and learning languages**! ^-^
 
